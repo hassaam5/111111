@@ -885,7 +885,65 @@
             "title": "hassaan",
             "icon": "sicon-store",
             "path": "hassaan.home",
-            "fields": []
+            "fields": [
+                {
+                    "id": "pann",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "pann-hastitel",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "pann.pann-hastitel",
+                            "type": "string",
+                            "format": "text",
+                            "label": "عنوان الصورة",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "pann.osf_alsort",
+                            "type": "string",
+                            "format": "text",
+                            "label": "وصف الصورة",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "pann.image",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": "image size is between 1200*800px",
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": true
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://salla.com/",
